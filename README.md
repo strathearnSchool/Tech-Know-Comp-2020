@@ -26,5 +26,7 @@ Rules
 
 **Links:**
 
-Link 1
-
+* [CoolText Generator](https://cooltext.com/)
+* [W3Schools](https://www.w3schools.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [HTML Layout Guide](https://www.w3schools.com/html/html_layout.asp)
