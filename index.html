@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Home Page</title>
+
+    <!-- REQUIRED - BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- USER DEFINED STYLESHEET -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -18,17 +25,59 @@
         <a href="spaceports.html">Spaceports</a>
         <a href="additional.html">Additional Info</a>
     </div>
-    
-    <div id="carousel">
-        Carousel
-    </div>
-    
-    <div id="welcomeText">
-        Info text next to carousel
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Carousel Title</h2>
+                <div id="spaceCarousel" class="carousel slide" data-ride="carousel" style="background-color: aqua">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#spaceCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#spaceCarousel" data-slide-to="1"></li>
+                        <li data-target="#spaceCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="imgs/space01.png" alt="Space 01" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Picture Title</h3>
+                                <p>Extra Caption or info</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="imgs/space02.png" alt="Space 02" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Picture Title</h3>
+                                <p>Extra Caption or info</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="imgs/beginning-funny.jpg" alt="In The Beginning" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Picture Title</h3>
+                                <p>Extra Caption or info</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <h1>WELCOME INTRODUCTION</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.</p>
+                <p>Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor.</p>
+            </div>
+        </div>
     </div>
 
-    <footer>
-        <p>JOKES</p>
+    <footer id="jokes">
+        JOKE #1
     </footer>
 </body>
 </html>
