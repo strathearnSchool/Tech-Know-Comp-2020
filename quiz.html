@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fun Time Quiz</title>
+    <!-- REQUIRED - BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header id="title">
+        <img src="imgs/strathearn-title.png"  alt="something new"/>
+    </header>
+
+    <br />
+    <div class="navBar">
+        <a href="index.html">Home</a>
+        <a href="satellites.html">Satellites</a>
+        <a href="spaceports.html">Spaceports</a>
+        <a class="active" href="quiz.html">Quiz</a>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <form>
+                    <h3>Q1) Which of these planets are the smallest?</h3>
+                    <input type="radio" id="earth" name="qOne" value="earth">
+                    <label for="earth">Earth</label><br>
+                    <input type="radio" id="uranus" name="qOne" value="uranus">
+                    <label for="uranus">Uranus</label><br>
+                    <input type="radio" id="jupiter" name="qOne" value="jupiter">
+                    <label for="jupiter">Jupiter</label><br>
+                    <!-- ANSWER -->
+                    <input type="radio" id="mercury" name="qOne" value="mercury">
+                    <label for="mercury">Mercury</label><br>
+
+                    <h3>Q2) What is the Sun mainly made from?</h3>
+                    <input type="radio" id="iron" name="qTwo" value="iron">
+                    <label for="iron">Iron</label><br>
+                    <input type="radio" id="lava" name="qTwo" value="lava">
+                    <label for="lava">Lava</label><br>
+                    <!-- ANSWER -->
+                    <input type="radio" id="gas" name="qTwo" value="gas">
+                    <label for="gas">Gas</label><br>
+                    <input type="radio" id="rock" name="qTwo" value="rock">
+                    <label for="rock">Rock</label><br>
+
+                    <h3>Q3) Which of these planets are closest to the Sun?</h3>
+                    <!-- ANSWER -->
+                    <input type="radio" id="mer" name="qThree" value="mer">
+                    <label for="mer">Mercury</label><br>
+                    <input type="radio" id="ear" name="qThree" value="ear">
+                    <label for="ear">Earth</label><br>
+                    <input type="radio" id="venus" name="qThree" value="venus">
+                    <label for="venus">Venus</label><br>
+                    <input type="radio" id="neptune" name="qThree" value="neptune">
+                    <label for="neptune">Neptune</label><br>
+
+                    <h3>Q4) Where is an asteroid belt?</h3>
+                    <input type="radio" id="jup-sat" name="qFour" value="jup-sat">
+                    <label for="jup-sat">Between Jupiter and Saturn</label><br>
+                    <input type="radio" id="ear-ven" name="qFour" value="ear-ven">
+                    <label for="ear-ven">Between Earth and Venus</label><br>
+                    <!-- ANSWER -->
+                    <input type="radio" id="mar-jup" name="qFour" value="mar-jup">
+                    <label for="mar-jup">Between Mars and Jupiter</label><br>
+                    <input type="radio" id="ear-mar" name="qFour" value="ear-mar">
+                    <label for="ear-mar">Between Earth and Mars</label><br>
+
+                    <h3>Q5) What is the great red spot on Juipter?</h3>
+                    <input type="radio" id="lake" name="qFive" value="lake">
+                    <label for="lake">Lake</label><br>
+                    <input type="radio" id="volcano" name="qFive" value="volcano">
+                    <label for="volcano">Volcano</label><br>
+                    <input type="radio" id="crater" name="qFive" value="crater">
+                    <label for="crater">Crater</label><br>
+                    <!-- ANSWER -->
+                    <input type="radio" id="storm" name="qFive" value="storm">
+                    <label for="storm">Storm</label><br>
+
+                    <br><input type="button" value="Finish" id="button" onclick="submitScore()">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer id="jokes">
+        JOKE #4
+    </footer>
+
+</body>
+</html>
