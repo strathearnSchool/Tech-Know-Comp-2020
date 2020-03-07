@@ -1,0 +1,57 @@
+/* ID referenced HTML element */
+#title {
+    text-align: center;
+}
+
+body {
+    font-family: spaceFont, serif;
+    background-color: #333333;
+    color: #999999;
+}
+
+header {
+    background-color: aliceblue;
+}
+
+footer {
+    background-color: aliceblue;
+}
+
+/* START navBar */
+/* Add a black background color to the top navigation */
+.navBar {
+    background-color: #333;
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.navBar a {
+    color: #999999;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navBar a:hover {
+    background-color: #4d4d4d;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+/* CLASS referenced HTML element */
+.navBar a.active {
+    background-color: #4d4d4d;
+    color: black;
+}
+/* END navBar */
+
+@font-face {
+    font-family: spaceFont;
+    src: url(../fonts/strasua.ttf);
+}
+
+
